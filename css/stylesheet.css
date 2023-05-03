@@ -1,0 +1,250 @@
+/*! Fonts */
+
+@font-face {
+    font-family: 'tiempos_headlineblack';
+    src: url('tiempos_headline-black-webfont.woff2') format('woff2'),
+         url('css/tiempos_headline-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-smooth: always;
+  }
+  
+  @font-face {
+    font-family: 'benton_sansregular';
+    src: url('bentonsans-regular_sot-webfont.woff2') format('woff2'),
+         url('css/bentonsans-regular_sot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-smooth: always;
+  }
+
+  /*! Font styles */
+  h1 {
+    font-family: 'tiempos_headlineblack', serif;
+    font-size: 56px;
+    color: #294d58
+    }
+  
+  h2 {
+    font-family: 'tiempos_headlineblack', serif;
+    font-size: 22px;
+    color: black;
+  }
+  h3 {
+    font-family: 'benton_sansregular', sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: black;
+  }
+  h4 {
+    font-family: 'benton_sansbold', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase; 
+    padding-bottom: 50px;
+    color: #294d58;
+  }
+  h5 {
+    font-family: 'benton_sansregular', sans-serif;
+    font-size: 26px;
+    margin-bottom: 12px;
+    position: relative;
+    color: rgb(78, 77, 77);
+    }  
+p {
+        font-family: 'benton_sansregular', sans-serif;
+        font-size: 16px;
+        line-height: 34px;
+        color: black;
+      }
+p2 {
+        font-family: 'benton_sansregular', sans-serif;
+        font-size: 16px;
+        line-height: 34px;
+        color: rgb(255, 255, 255);
+      }
+.subhead {
+    font-family: 'tiempos_headlineblack', serif;
+    font-size: 26px;
+    line-height: 34px;
+    color: black;
+}
+
+
+  .headSea {
+    max-width: 930px; 
+	margin: 0 auto;
+	float: left;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 30px;
+    text-align: left;
+  }
+  .header {
+    background-color: #ffffff;
+    height: 700px;
+    width: 100%;
+  }
+
+
+  
+  .ferryWrap {
+	margin: 0 auto;
+    width: 100%;
+	float: left;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 300px;
+  }
+  .ferry {
+	margin: 0 auto;
+    max-width: 700px;
+    width: 90%;
+	float: left;
+
+  }
+ 
+.button {
+    border: none;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+  }
+  
+  .button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  #myDIV {
+    width: 100%;
+    text-align: left;
+    display: none;
+    
+  }  
+  #myDIV2 {
+    width: 100%;
+    text-align: left;
+    display: none;
+  }  
+  #myDIV3 {
+    width: 100%;
+    text-align: left;
+    display: none;
+  }  
+  #myDIV4 {
+    width: 100%;
+    text-align: left;
+    display: none;
+  }  
+  #myDIV5 {
+    width: 100%;
+    text-align: left;
+    display: none;
+  }  
+  #myDIV6 {
+    width: 100%;
+    text-align: left;
+    display: none;
+  }  
+  #myDIV7 {
+    width: 100%;
+    text-align: left;
+    display: none;
+
+  }  
+  #myDIV8 {
+    width: 100%;
+    text-align: left;
+    display: none;
+    padding-bottom: 50px;
+  }  
+
+  .flowChart {
+    max-width: 930px; 
+	margin: 0 auto;
+	float: left;
+    padding-top: 50px;
+    padding-left: 101px;
+    padding-right: 30px;
+    text-align: left;
+    font-family: 'benton_sansregular', sans-serif;
+  }
+  .body {
+    padding-left: 55px;
+  }
+  
+  body {
+    background-color: #294d58;
+    background-image: linear-gradient(315deg, #294d58 0%, #5f7278 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 0px;
+  }
+
+ .title{
+    font-size: 24px;
+    margin-bottom: 12px;
+    padding-left: 55px;
+    position: relative;
+    color: white;
+  }
+  body:before{
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 120px;
+    bottom: 0px;
+    transform: translateX(-50%);
+    width: 4px;
+    background-color: white;
+  }
+  body .entries{
+	margin: 0 auto;
+	float: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+  }
+
+  body .flowChart .entry .title{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    position: relative;
+    color: white;
+    
+  }
+  body .flowChart .entry .title:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #ffffff;
+    background-color: #ff852b;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+  }
+
+  .spacer {
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
