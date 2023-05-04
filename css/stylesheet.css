@@ -344,3 +344,19 @@ p2 {
     transform: translateY(0);
     opacity: 1;
   }
+
+  .footer {
+    color: #294d58;
+    font-family: 'benton_sansbold', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+ }
