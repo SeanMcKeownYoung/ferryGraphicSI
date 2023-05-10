@@ -98,4 +98,3 @@ const appearOptions = {
       }
       
       window.addEventListener("scroll", reveal);
-      

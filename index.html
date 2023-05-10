@@ -11,13 +11,31 @@
     <script src="js/index.js"></script>
     
 </head>
+<body>
+    <div class="backButton">
+        <svg id="ArrowBack" onclick="history.back()">
 
+           <rect y=".5" width="238.07" height="63.3" style="fill:none;"/>
+           <path d="m126.73.5h-29.59c-2.57,0-5.04,1.02-6.86,2.84l-23.27,23.27c-3.06,3.06-3.06,8.03,0,11.09l23.27,23.27c1.82,1.82,4.29,2.84,6.86,2.84h241.5V.5H126.73Z" style="fill:#294d58; stroke:#fff; stroke-miterlimit:10;stroke-width:4px;"/>
+           
+           <path d="m98.66,53.93c-.64,0-1.29-.25-1.78-.74l-19.27-19.27c-.47-.47-.74-1.11-.74-1.78,0-.67.27-1.31.74-1.78l19.27-19.26c.98-.98,2.57-.98,3.55,0,.98.98.98,2.57,0,3.55l-17.49,17.49,17.49,17.49c.98.98.98,2.57,0,3.55-.49.49-1.13.74-1.78.74Z" style="fill:#fff;"/>
+            
+            <text transform="translate(125.07 36.7)" 
+            style="fill:#fff; font-size:18px;"><tspan x="0" y="0">Return to story</tspan></text>
+
+        
+        </svg>
+    </div>
 <!-- Intro start -->
+
 <div class="header">
-    <div class="headSea">
+
+        <!-- Back button  -->
+
+            <div class="headSea">
         <div class="mid-text">
             <div class="label">
-            <b>Interactive &nbsp; </b> | &nbsp;silive.com
+            <span><b>Interactive &nbsp; </b> | &nbsp;silive.com</span>
             </div>
         </div>
         <div class="entry wow animated zoomIn" data-wow-duration="5.0s">       
@@ -38,7 +56,18 @@
     New York City's continued refusal to provide crew members with a “fair and respectful” 
     new contract has contributed to the staffing issues, and subsequently, the service 
     disruptions. </p>
-        </div>
+    <div>
+        <svg id="arrow">
+ 
+            <line x1="13" y1="1.5" x2="13" y2="44.27" 
+            style="fill:none; stroke:#000; stroke-linecap:round; stroke-linejoin:round; stroke-width:3px;"/>
+            <polyline points="24.5 32.77 13 44.27 1.5 32.77" 
+            style="fill:none; stroke:#000; stroke-linecap:round; stroke-linejoin:round; stroke-width:3px;"/>
+            <text transform="translate(35.07 20.7)" 
+                class="arrowText">
+                <tspan>Scroll down</tspan>
+            </text>
+        </svg>
     </div>
     </div>
 </div>
@@ -192,5 +221,5 @@
                         <p>&nbsp;</p>
                         </div>
 
-
+</body>
 </html>

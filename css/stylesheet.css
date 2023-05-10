@@ -19,16 +19,23 @@
   }
 
   /*! Font styles */
+  body {
+    width: 100vw;
+    margin: 0;
+  }
   h1 {
     font-family: 'tiempos_headlineblack', serif;
     font-size: 56px;
     color: black;
+    margin-left: 12px;
+    margin-right: 30px;
     }
   
   h2 {
     font-family: 'tiempos_headlineblack', serif;
     font-size: 22px;
     color: black;
+    margin-left: 12px;
   }
   h3 {
     font-family: 'benton_sansregular', sans-serif;
@@ -42,6 +49,7 @@
     text-transform: uppercase; 
     padding-bottom: 50px;
     color: #294d58;
+    margin-left: 12px;
   }
 b {
     font-family: 'benton_sansbold', sans-serif;
@@ -59,6 +67,7 @@ p {
     font-size: 16px;
     line-height: 34px;
     color: black;
+    margin-left: 12px;
     }
 p2 {
     font-family: 'benton_sansregular', sans-serif;
@@ -71,6 +80,7 @@ p2 {
     font-size: 26px;
     line-height: 34px;
     color: black;
+    margin-left: 12px;
 }
 .fade-in {
     opacity: 0;
@@ -79,33 +89,40 @@ p2 {
 .fade-in.appear {
     opacity: 0;
 }
+.header {
+      background-color: #ffffff;
+      width: 100%;
+      margin: 0;
+}
+
 
   .headSea {
     max-width: 100%; 
     height: auto;
-	margin: 0 auto;
-	float: left;
+	  margin: 0 auto;
+	  float: left;
     padding-top: 50px;
-    padding-left: 120px;
-    padding-right: 60px;
+    padding-left: 108px;
+    padding-right: 119px;
+    padding-bottom: 80px;
     text-align: left;
-    background-color: #ffffff;
+
   }
   .ferryWrap {
     position: relative;
-	margin: 0 auto;
+	  margin: 0 auto;
     width: 100%;
-	float: left;
+	  float: left;
     padding-top: 0px;
     padding-left: 7px;
     padding-right: 0px;
   }
 
   .ferry {
-	margin: 0 auto;
+	  margin: 0 auto;
     max-width: 900px;
     width: 90%;
-	float: left;
+	  float: left;
     position: relative;top: 0px; left: 0px;
     animation: rotation 4s linear infinite;
   }
@@ -142,8 +159,8 @@ p2 {
   .wave1{
     -webkit-background-size: 50% 80px;
     background-size: 50% 80px;
-      animation-name: animate;
-      animation-duration: 4s;
+    animation-name: animate;
+    animation-duration: 4s;
     }
   
   .wave2{
@@ -166,7 +183,7 @@ p2 {
     }
     }
 
-     @-webkit-keyframes rotation {
+@keyframes rotation {
         0% {
           -webkit-transform: rotate(0deg);
         }
@@ -251,11 +268,11 @@ p2 {
 
   .flowChart {
     max-width: 930px; 
-	margin: 0 auto;
-	float: left;
+	  margin: 0 auto;
+	  float: left;
     padding-top: 20px;
     padding-left: 101px;
-    padding-right: 30px;
+    padding-right: 119px;
     text-align: left;
     font-family: 'benton_sansregular', sans-serif;
   }
@@ -360,3 +377,76 @@ p2 {
     color: white;
     text-align: center;
  }
+#arrow {
+position: absolute;
+margin-bottom: 100px;
+animation: arrow 3s ease 2s 1 normal both;
+}
+ .arrowText {
+  font-family: 'benton_sansregular', sans-serif;
+  font-size: 18px;
+  color: black;
+ }
+
+ @keyframes arrow {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+.backButton {
+  position: fixed;
+  right: 0;
+  width: 124px;
+  font-family: 'benton_sansbold', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  transition: 1s all ease;
+  z-index: 300;
+}
+
+.backButton:hover {
+  width: 270px;
+}
