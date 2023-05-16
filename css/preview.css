@@ -43,7 +43,10 @@ b {
     padding-right: 32%;
     color: black;
 }
-
+subhead2 {
+  color: #294d58;
+  text-wrap: balanced;
+}
 p {
     font-family: 'benton_sansregular', sans-serif;
     font-size: 16px;

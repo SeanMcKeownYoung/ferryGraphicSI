@@ -17,6 +17,15 @@
     font-style: normal;
     font-smooth: always;
   }
+  @font-face {
+    font-family: 'benton_sansbold';
+    src: url('css/bentonsans-bold_sot-webfont.woff2') format('woff2'),
+         url('css/bentonsans-bold_sot-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-smooth: always;
+  }
+
 
   /*! Font styles */
   body {
@@ -68,20 +77,30 @@ p {
     line-height: 34px;
     color: black;
     margin-left: 12px;
+    text-wrap: balanced;
     }
 p2 {
     font-family: 'benton_sansregular', sans-serif;
     font-size: 16px;
     line-height: 34px;
     color: rgb(255, 255, 255);
+    text-wrap: balanced;
     }
+
 .subhead {
     font-family: 'tiempos_headlineblack', serif;
     font-size: 26px;
     line-height: 34px;
     color: black;
     margin-left: 12px;
+    margin-bottom: 20px;
+    text-wrap: balanced;
 }
+subhead2 {
+  color: #294d58;
+  text-wrap: balanced;
+}
+
 .fade-in {
     opacity: 0;
     transition: opacity 250ms ease-in;
